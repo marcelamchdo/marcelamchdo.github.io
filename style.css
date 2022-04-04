@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins&display=swap');
+
+body {
+    background: linear-gradient(90deg, rgba(174,195,219,1) 0%, rgba(124,160,185,1) 0%, rgba(71,138,181,1) 11%, rgba(27,66,89,1) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecalho a{
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cabecalho a:hover{
+    color: grey;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hi {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4px solid white;
+
+}
+
+.bigbox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: justify;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+
+}
+
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: rgb(228, 228, 228);
+    font-weight: 100;
+    font-size: 30px;
+}
+
+img {
+    border: 10px solid rgb(174, 226, 246);
+    border-radius: 5%;
+}
+
+.outros {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 20px;
+    border-right: 0.4px solid white;
+}
+
+h2 {
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    text-align: left;
+}
+
+ul {
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.back {
+    font-size: 15px;
+}
+
+.redes {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+</style>
