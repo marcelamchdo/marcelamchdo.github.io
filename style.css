@@ -1,133 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins&display=swap');
-
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+ 
 body {
-    background: linear-gradient(90deg, rgba(174,195,219,1) 0%, rgba(124,160,185,1) 0%, rgba(71,138,181,1) 11%, rgba(27,66,89,1) 100%);
-}
-
-.cabecalho {
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    align-items: center;
-    padding: 20px;
-}
-
-.cabecalho a{
-    padding-right: 20px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-.cabecalho a:hover{
-    color: grey;
-}
-
-.conteudo {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.hi {
-    display: flex;
-    flex-direction: column;
-    border-top: 0.4px solid white;
-
-}
-
-.bigbox {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: justify;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-items: center;
-    
-}
-
-.text {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    padding-left: 200px;
-    padding-right: 200px;
-    text-align: justify;
-
+  background-image:
+  linear-gradient(to top, transparent 50%, rgb(0, 0, 0)),
+  url(/ref-portfolio/galaxy-new.jpg);
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Nova Flat';
+  ;
+  color: white;
 }
 
 
-h1 {
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    color: rgb(228, 228, 228);
-    font-weight: 100;
-    font-size: 30px;
+/* ========== nav ========== */
+
+body header #cabecalho {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  height: 3rem;
+  display: flex;
+  justify-content: right;
+  margin-right: 5.0rem;
 }
 
-img {
-    border: 10px solid rgb(174, 226, 246);
-    border-radius: 5%;
+.nav {
+  display: flex;
+  padding-top: 3rem;
+  margin-right: 5.0rem;
+
+  color: white;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+
+  text-decoration: none;
 }
 
-.outros {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    align-content: center;
-    justify-content: center;
+.nav:hover {
+  text-decoration: none;
 }
 
-.skills {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    padding-right: 20px;
-    border-right: 0.4px solid white;
+/* ========== menu lateral ========== */
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 69rem;
+  
+}
+.menuLateral {
+  width: 13rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }
 
-h2 {
-    display: flex;
-    justify-content:flex-start;
-    gap: 20px;
-    font-size: 20px;
-    margin: 10px;
-    font-family: 'Comfortaa', cursive;
-    font-weight: bold;
-    text-align: left;
+.linhaVertical {
+  height: 15rem;  
+  border-left: 0.15rem solid #fff;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
 }
 
 ul {
-    font-size: 12px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  margin-left: 4.8rem;
+  list-style-type: none;
+} 
+
+.social {
+  width: 3.0rem;
+  height: 4.0rem;
 }
 
-.more {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    padding-left: 20px;
-    text-align: left;
+.apresentation-text {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 6.0rem;
+  margin-left: 2.0rem;
 }
 
-.back {
-    font-size: 15px;
+.apresentation-text .textHome {
+  font-size: 2.8rem;
 }
 
-.redes {
-    font-size: 20px;
-    color: white;
+.apresentation-text .description {
+  font-size: 2.8rem;
 }
 
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
 
+.about #about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+  height: 30rem;
+  width: 50rem;
+}
 
-</style>
+.about #hi {
+  font-size: 2.8rem;
+  padding-bottom: 1rem;
+}
+
+.about #apresentation {
+  font-size: 1.5rem;
+  text-align: center;
+  
+}
