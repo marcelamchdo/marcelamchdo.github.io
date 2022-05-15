@@ -21,9 +21,6 @@ body {
 /* ========== nav ========== */
 
 body header #cabecalho {
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.4rem;
   height: 3rem;
   display: flex;
   justify-content: right;
@@ -37,7 +34,7 @@ body header #cabecalho {
 
   color: white;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 2rem;
   line-height: 1.4rem;
 
   text-decoration: none;
@@ -57,7 +54,7 @@ main {
 }
 .menuLateral {
   width: 13rem;
-  height: 50rem;
+  height: 60rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -65,8 +62,8 @@ main {
 }
 
 .linhaVertical {
-  height: 15rem;  
-  border-left: 0.15rem solid #fff;
+  height: 20rem;  
+  border-left: 0.2rem solid #fff;
   margin-left: 6rem;
   margin-bottom: 2rem;
 }
@@ -107,7 +104,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 100px;
+  margin-right: 10rem;
   height: 30rem;
   width: 50rem;
 }
@@ -119,6 +116,6 @@ ul {
 
 .about #apresentation {
   font-size: 1.5rem;
-  text-align: center;
+  text-align: justify;
   
 }
