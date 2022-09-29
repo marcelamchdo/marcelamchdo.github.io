@@ -8,23 +8,22 @@
  
 body {
   background-image:
-  linear-gradient(to top, transparent 50%, rgb(0, 0, 0)),
-  url(/ref-portfolio/galaxy-new.jpg);
-  background-position: center center;
-  background-size: cover;
+  url(/ref-portfolio/galaxy01.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
   font-family: 'Nova Flat';
-  ;
   color: white;
 }
 
-
 /* ========== nav ========== */
 
-body header #cabecalho {
-  height: 1rem;
+nav #cabeçalho {
+  height: 12px;
+}
+
+#cabecalho {
   display: flex;
   justify-content: right;
-  margin-right: 5.0rem;
 }
 
 .nav {
@@ -96,9 +95,9 @@ ul {
 }
 
 .about {
-  width: 100%;
   display: flex;
   justify-content: flex-end;
+  background-color: rgb(7, 0, 12);
 }
 
 .about #about-text {
@@ -106,13 +105,14 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-right: 10rem;
+  padding-top: 200px;
   height: 30rem;
   width: 50rem;
 }
 
 .about #hi {
   font-size: 2.8rem;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 }
 
 .about #apresentation {
@@ -120,6 +120,89 @@ ul {
   text-align: justify;
   
 }
+
+.sectionProjects {
+  background-color: rgb(7, 0, 12);
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  padding-top: 30px;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+.trybewallet {
+  width: 500px;
+  height: 550px;
+  border: 1px solid white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.imgTrybewallet {
+  height: 280px;
+  padding-bottom: 10px;
+
+}
+
+.nameProject {
+  font-size: 33px;
+}
+
+.descriptionProject {
+  width: 450px;
+  text-align: justify;
+
+}
+
+.langIcons {
+ padding-top: 10px;
+ padding-bottom: 5px;
+}
+
+.langIcon {
+  height: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 450px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button {
+  background-color: rgb(53, 15, 80);
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.buttonsLink {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.buttonsLink:hover {
+  font-size: 15px;
+  color: black;
+}
+
 
 
 /* =========resposive =============== */
